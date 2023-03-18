@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Nunito:wght@300&family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Nunito:wght@300&family=Paytone+One&family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Noto+Sans:ital,wght@0,700;1,300&family=Nunito:wght@300&family=Paytone+One&family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;;
+}
+
+body{
+    background-image: url(https://images.alphacoders.com/129/1291249.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 20px 40px;
+}
+
+ul{
+    display: inline-flex;
+    padding-left: 2rem;
+    margin-top: 5px;
+    margin-right: 80px;
+}
+
+li{
+    list-style: none;
+    padding-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#btn-login{
+    width: 75px;
+    height: 40px;
+    border-radius: 2rem; 
+    border: none;
+    cursor: pointer;
+    
+}
+
+#btn-login:hover{
+    color: #86CCFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#logo{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main h1{
+    font-size: 65px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.main p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#btn-left{
+    background-color: white;
+    width: 215px;
+    height: 60px;
+    border-radius: 2rem;
+    padding: 5px;
+    border: none;
+    transition: ease-in-out;
+    margin-right: 20px;
+}
+
+#btn-left:hover{
+    box-shadow: 0px 0px 10px rgba(39, 39, 39, 0.425);
+    color:  rgb(136, 136, 255);
+}
+
+#btn-right{
+    background-color: #23272a;
+    width: 240px;
+    height: 60px;
+    border-radius: 2rem;
+    padding: 5px;
+    border: none;
+    color: white;
+    transition: ease-in-out;
+    margin-left: 20px;
+}
+
+#btn-right:hover{
+    background-color: rgb(47, 49, 49);
+    box-shadow: 0px 0px 10px rgba(39, 39, 39, 0.425);
+}
+
+.botoes{
+    margin-top: 20px
+}
